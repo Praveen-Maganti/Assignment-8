@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Number Checker</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var text = window.prompt("Enter the Text:");
+    var rep = window.prompt("Enter no of times:");
+    rep=parseInt(rep);
+    document.write('<span style="font-size:32px;">Text: '+text+' is repeated '+rep+' times'+'</span><br>');
+    var y=0;
+    for(y=0;y<rep;y++){
+        document.write('<span style="font-size:32px;">'+(y+1)+'. '+text+'</span><br>');
+    }
+
+    
+  </script>
+</body>
+</html>
